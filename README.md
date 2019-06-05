@@ -1,10 +1,10 @@
-Purpose:
+**Purpose:**
 
 Build a data warehouse for analytical operations. to allow Sparkify wants to analyze the data they've been collecting on songs and user activity on their new music streaming app
 Benefits
 
 
-Design schema
+**Design schema**
 there is two table stage, this table will copy data from S3 to the table stage.
 Star schema because it's more effective for handling queries
 
