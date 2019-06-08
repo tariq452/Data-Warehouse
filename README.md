@@ -8,7 +8,7 @@ Benefits
 there is two table stage, this table will copy data from S3 to the table stage.
 Star schema because it's more effective for handling queries
 
-Fact Table
+**Fact Table**
 
 songplays - records in event data associated with song plays i.e. records with page NextSong
 songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
@@ -22,7 +22,7 @@ artist_id, name, location, lattitude, longitude
 time - timestamps of records in songplays broken down into specific units
 start_time, hour, day, week, month, year, weekday
 
-Etl
+**Etl**
 
 the ETL file is tor drop tables if exist and create tables, after that, the script will copy and insert data in tables
 
